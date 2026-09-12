@@ -1,11 +1,27 @@
 # Home Lab SOC Analyst Toolkit
-By Dominic Cheruiyot - Faulu Bank | Delmax | Kabarnet, Kenya
-Certificate: Cybersecurity Fundamentals
+By Dominic Cheruiyot | Kabarnet, Kenya | Aspiring SOC Analyst | Faulu Bank | Delmax
 
-## Labs
-- confidentiality.py -> CIA Confidentiality
-- integrity.py -> CIA Integrity
-- IR-playbook.md -> IR Lifecycle
+## Overview
+Hands-on implementation of CIA Triad - Confidentiality, Integrity, Availability - for SOC Analyst L1 portfolio.
 
-pip install cryptography
-python confidentiality.py
+## 🛡️ Tools Included
+- **Confidentiality.py** - AES-256 encryption / decryption lab (Protects data confidentiality)
+- **Integrity.py** - SHA-256 file integrity monitoring (Detects tampering - SOC use case)
+- **IR-playbook.md** - Incident Response Playbook for phishing, malware, data breach
+
+## 📜 Certificate
+![My Cybersecurity Certificate](Screenshot_20260912-160813.png)
+
+Certified in Cybersecurity Fundamentals - ICT Authority Kenya
+
+## 🎯 SOC Analyst Skills Demonstrated
+- Encryption & Data Protection
+- File Integrity Monitoring (FIM)
+- Incident Response
+- Python for Security Operations
+- GitHub Portfolio Management
+
+## How to Run
+```bash
+python Confidentiality.py
+python Integrity.py

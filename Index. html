@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SOC Toolkit - Eldoret</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>My SOC Toolkit - CIA Triad</h1>
+
+<div class="card" onclick="runLab('Confidentiality')">
+<h2>1. Confidentiality</h2>
+<p>AES Encryption - Data is secret</p>
+<button>Test</button>
+</div>
+
+<div class="card" onclick="runLab('Integrity')">
+<h2>2. Integrity</h2>
+<p>SHA256 Hash - Data is not changed</p>
+<button>Test</button>
+</div>
+
+<div class="card" onclick="runLab('Availability')">
+<h2>3. Availability</h2>
+<p>Backup & Restore - Service always UP</p>
+<button>Test</button>
+</div>
+
+<p id="output">Click a card to simulate SOC response...</p>
+<script src="script.js"></script>
+</body>
+</html>

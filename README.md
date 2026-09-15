@@ -25,3 +25,8 @@ Certified in Cybersecurity Fundamentals - ICT Authority Kenya
 ```bash
 python Confidentiality.py
 python Integrity.py
+## Live Demo
+https://dominiccheruiyot20-hue.github.io/Home-lab-SOC-Analyst-Toolkit-/
+
+## SOC Analyst Home Lab
+CIA Triad + IR Playbook + Python toolkit built on Termux

@@ -1,0 +1,35 @@
+body {
+  background: #0a192f;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #64ffda;
+}
+.card {
+  background: #112240;
+  border: 2px solid #64ffda;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 350px;
+}
+.card:hover {
+  background: #1a365d;
+}
+button {
+  background: #64ffda;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#output {
+  margin-top: 20px;
+  background: black;
+  padding: 15px;
+  border-radius: 8px;
+  color: #64ffda;
+}
